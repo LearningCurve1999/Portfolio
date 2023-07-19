@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: #080808;
+    background: linear-gradient(to right, #080808, #434343 );
     color: #fff;
 }
 
@@ -19,7 +19,7 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url(jsCalculator.PNG);
+    background: linear-gradient(to right, #080808, #434343 );
 }
 
 .container {
@@ -83,7 +83,7 @@ nav ul li a:hover::after {
 
 #about {
     padding: 80px 0;
-    color: rgb(139, 138, 138);
+    background: linear-gradient(to right, #080808, #434343 );
 }
 
 .row {
@@ -145,6 +145,7 @@ nav ul li a:hover::after {
     list-style: none;
     color: #fff;
     padding: 15px;
+    background: linear-gradient(to right, #080808, #434343 );
 }
 
 .tab-contents ul li span {
@@ -177,7 +178,7 @@ nav ul li a:hover::after {
 
 
 .service-list div {
-    background: #262626;
+    background: linear-gradient(to right, #080808, #434343 );
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -205,7 +206,7 @@ nav ul li a:hover::after {
 }
 
 .service-list div:hover {
-    background: #ff004f;
+    background: #b6003a;
     /* it will move to Y axis -10px */
     transform: translateY(-10px);
 }
@@ -343,7 +344,7 @@ nav ul li a:hover::after {
 
 .btn.btn2 {
     display: inline-block;
-    background:#080808;
+    background: linear-gradient(to right, #080808, #434343 );
     border: 1px solid #ff004f;
 }
 
@@ -370,7 +371,7 @@ form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: linear-gradient(to right, #080808, #434343 );
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -389,7 +390,7 @@ form .btn2 {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: linear-gradient(to right, #080808, #222222 );
     font-weight: 300;
     margin-top: 20px;
 }
@@ -406,9 +407,9 @@ nav .fas {
 }
 
 @media only screen and (max-width: 600px) {
-    #header {
+    /* #header {
         background-image: url(jsCalculator.png);
-    }
+    } */
 
     .header-text {
         margin-top: 100%;
