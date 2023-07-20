@@ -237,6 +237,7 @@ nav ul li a:hover::after {
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    
 }
 
 .layer {
@@ -256,6 +257,7 @@ nav ul li a:hover::after {
     text-align: center;
     font-size: 14px;
     transition: height 0.6s;
+    
 }
 
 
@@ -402,9 +404,9 @@ nav .fas {
     justify-content: end;
 }
 
-.fas {
-    background: #fff;
-}
+/* .fas {
+   
+} */
 
 @media only screen and (max-width: 600px) {
     /* #header {
